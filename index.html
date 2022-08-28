@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>SKILLS AND THRILLS</title>
+</head>
+<body class="bg-dark">
+    <h1 class="text-center my-5 text-light">SKILLS AND THRILLS</h1>
+    <div class="container ">
+    <form action="a.html" id="form" method="get"  >
+        <table class="table table-light  text-center table-striped">  
+            <tr>
+                <td>NAME:</td>
+                <td>
+                    <input  id="name" type="text" class="form-control" name="name" onfocus="focusa()" onblur="blura()">
+                </td>
+                <td  id="name1">             
+                </td>
+            </tr>
+            <tr>
+                <td>USER-NAME:</td>
+                <td>
+                    <input id="user" type="text" class="form-control" name="user" oninput="oi()">
+                </td>
+                <td id="user1">             
+                </td>
+            </tr>
+            <tr>
+                <td>E-MAIL:</td>
+                <td>
+                    <input id="mail" type="email" class="form-control" name="mail">
+                </td>
+                <td id="mail1">
+
+                </td>
+            </tr>
+            <tr>
+                <td>PASSWORD:</td>
+                <td>
+                    <input id="pw" type="password" class="form-control" name="pw">
+                </td>
+                <td id="pw1">
+
+                </td>
+            </tr>
+            <tr>
+                <td>PHONE-NO:</td>
+                <td>
+                    <input id="number" type="number" class="form-control" name="number">
+                </td>
+                <td id="number1">             
+                </td>
+            </tr>
+           
+            <tr>
+                <td></td>
+                <td  >
+                    <select id="sel" class="form-select " name="sel">
+                        <option value="0" disabled selected value> -- select your state -- </option>
+                        <option value="1">Tamilnadu</option>
+                        <option value="1">Andhra Pradesh</option>
+                        <option value="1">Kerala</option>
+                        <option value="1">Karnataka</option>
+                      </select>
+                </td>
+                <td id="sel1">             
+                </td>
+            </tr>
+
+            <tr>    
+                <td colspan="2">
+                    GENDER:   
+                    <input id="r1"  type="radio" class="form-check-input" value="1" name="r">
+                    Female
+                    <input id="r2" type="radio" class="form-check-input" value="2"  name="r">
+                    Male
+                </td>
+                <td id="radio1">             
+                </td>
+            </tr>
+            <tr>
+    
+                <td colspan="2">
+                    Dancing
+                    <input id="c1"  type="checkbox" class="form-check-input" value="dance" name="c1">
+                    Singing
+                    <input id="c2" type="checkbox" class="form-check-input" value="sing"  name="c2">  
+                    Drama
+                    <input id="c3" type="checkbox" class="form-check-input" value="drama"  name="c3">  
+                </td>
+                <td id="check1">             
+                </td>
+            </tr>
+            <tr >
+                <td colspan="3">
+                    <input onclick="validate()" class="btn btn-dark my-3"  value="SUBMIT">
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+</div>
+<script src="script.js">
+
+</script>
+</body>
+</html>
